@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky); // Full-screen mode
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky); // Full-screen  mode
   runApp(const SudokuSolverApp());
 }
 
